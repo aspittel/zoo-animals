@@ -1,0 +1,38 @@
+.mammal {
+  color: red;
+  font-weight: bold;
+}
+
+.fish {
+  color: orange;
+  text-decoration: underline;
+}
+
+.bird {
+  color: blue;
+  font-style: italic;
+}
+
+.gray {
+  background-color: grey;
+}
+
+.salmon {
+  background-color: salmon;
+}
+
+.sienna {
+  background-color: sienna;
+}
+
+.blue {
+  background-color: steelblue;
+}
+
+ul {
+  list-style-type: none;
+  display: grid;
+  /* grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 2fr 2fr 3fr; */
+  grid-template-areas: 1fr 3fr;
+}
